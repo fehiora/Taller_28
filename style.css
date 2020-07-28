@@ -1,0 +1,16 @@
+.chart{
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(226, 225, 225);
+    color: blueviolet;
+}
+
+.date{
+    margin: 2%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+}
