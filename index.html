@@ -10,6 +10,14 @@
     <script src="moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
 </head>
 <body>
 
@@ -86,25 +94,18 @@
                       document.body.appendChild(img);
                   new Chart(ctx, {
               data: {
-                  labels: ['Movientos', 'Oscar', 'Jorge', 'Anyela', 'James', 'Alejandra'],
+                  labels: ['Movientos'],
                   datasets: [{
                       label: 'Pikachu',
-                      data: [result.moves.length, 19, 3, 5, 2, 3],
+                      data: [result.moves.length,],
                       backgroundColor: [
                           'rgba(255, 99, 50, 0.2)',
-                          'rgba(54, 162, 235, 0.2)',
-                          'rgba(255, 206, 86, 0.2)',
-                          'rgba(75, 192, 192, 0.2)',
-                          'rgba(153, 102, 0, 0.2)',
-                          'rgba(255, 159, 64, 0.2)'
+
+
                       ],
                       borderColor: [
                           'rgba(255, 99, 132, 1)',
-                          'rgba(54, 162, 235, 1)',
-                          'rgba(255, 206, 86, 1)',
-                          'rgba(75, 192, 192, 1)',
-                          'rgba(153, 102, 255, 1)',
-                          'rgba(255, 159, 64, 1)'
+
                       ],
                       borderWidth: 1
                   }]
@@ -128,5 +129,71 @@
           </script>
     </div>
 
+<section>
+        <div id="mc_embed_signup">
+        <form action="https://gmail.us17.list-manage.com/subscribe/post?u=27198cba2a1a8ff483b4053b3&amp;id=18be538b76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+            <h2>Subscribe</h2>
+        <div class="indicates-required"><span class="asterisk">*</span> Campos requeridos</div>
+        <div class="mc-field-group">
+            <label for="mce-EMAIL">Correo  <span class="asterisk">*</span>
+        </label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+        <div class="mc-field-group">
+            <label for="mce-FNAME">Nombre </label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+        </div>
+        <div class="mc-field-group">
+            <label for="mce-MMERGE4">Apellido </label>
+            <input type="text" value="" name="MMERGE4" class="" id="mce-MMERGE4">
+        </div>
+        <div class="mc-field-group size1of2">
+            <label for="mce-MMERGE6">Teléfono </label>
+            <input type="text" name="MMERGE6" class="" value="" id="mce-MMERGE6">
+        </div>
+        <div class="mc-field-group">
+            <label for="mce-MMERGE7">Comentarios/Solicitudes </label>
+            <input type="text" value="" name="MMERGE7" class="" id="mce-MMERGE7">
+        </div>
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_27198cba2a1a8ff483b4053b3_18be538b76" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[4]='MMERGE4';ftypes[4]='text';fnames[2]='MMERGE2';ftypes[2]='phone';fnames[3]='ADDRESS';ftypes[3]='address';fnames[5]='MMERGE5';ftypes[5]='phone';fnames[6]='MMERGE6';ftypes[6]='phone';fnames[7]='MMERGE7';ftypes[7]='text'; /*
+        * Translated default messages for the $ validation plugin.
+        * Locale: ES
+        */
+        $.extend($.validator.messages, {
+        required: "Este campo es obligatorio.",
+        remote: "Por favor, rellena este campo.",
+        email: "Por favor, escribe una dirección de correo válida",
+        url: "Por favor, escribe una URL válida.",
+        date: "Por favor, escribe una fecha válida.",
+        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+        number: "Por favor, escribe un número entero válido.",
+        digits: "Por favor, escribe sólo dígitos.",
+        creditcard: "Por favor, escribe un número de tarjeta válido.",
+        equalTo: "Por favor, escribe el mismo valor de nuevo.",
+        accept: "Por favor, escribe un valor con una extensión aceptada.",
+        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+        });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+</section>
+
+<section>
+    <iframe src="https://us17.list-manage.com/survey?u=27198cba2a1a8ff483b4053b3&id=2848533761" frameborder="0" style="width: 80vw;height:80vh;overflow: hidden;"></iframe>
+    
+</section>
 </body>
 </html>
